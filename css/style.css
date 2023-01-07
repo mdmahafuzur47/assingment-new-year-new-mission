@@ -1,0 +1,94 @@
+/* Google Fonts Links====== */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Work+Sans:wght@400;500;700;900&display=swap');
+
+/* Global CSS======== */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header area css====== */
+header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+}
+
+.header-container {
+    text-align: right;
+    padding: 150px 190px 0px 600px;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 76px;
+}
+
+.header-para {
+    padding: 0 0 0 65px;
+    margin-top: 17px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.header-btn {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 13px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Main section CSS========= */
+.failures-section {
+    padding: 30px 200px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.failures {
+    text-align: left;
+}
+
+.failures-img {
+    width: 450px;
+}
+
+.failures ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #444343;
+}
+
+.failures-title {
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 37px;
+    color: #151414;
+}
+
+.failures-para {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #444343;
+}
+
+.check-icon {
+    color: rgb(37, 183, 68);
+}
