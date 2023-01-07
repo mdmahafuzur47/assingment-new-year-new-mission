@@ -93,6 +93,62 @@ header {
     color: rgb(37, 183, 68);
 }
 
+/* Skill Section Css======= */
+.skill-container {
+    padding: 10px 150px;
+}
+
+.skill-header-text {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #151414;
+    text-align: center;
+}
+
+.skill-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    color: #151414;
+    text-align: center;
+}
+
+.skill-para {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.skill-box-container {
+    padding: 50px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-icons {
+    width: 100px;
+}
+
+.skill-icons1 {
+    width: 89px;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.313), rgba(35, 67, 35, 0.176));
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
 /* Plans Section CSS===== */
 .plans-section {
     text-align: center;
@@ -130,22 +186,25 @@ header {
     line-height: 20px;
     color: #737272;
 }
+
 /* positive-container css */
-.positive-container{
-    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+.positive-container {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 100px 170px;
     padding: 50px 60px;
     border-radius: 8px;
 }
-.positive-title{
+
+.positive-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #FFFFFF;
 }
-.call-now-btn{
+
+.call-now-btn {
     font-weight: 600;
     font-size: 17px;
     line-height: 23px;
@@ -156,7 +215,7 @@ header {
 }
 
 /* Footer Section Css===== */
-footer{
+footer {
     padding: 100px 200px;
     display: flex;
     justify-content: space-between;
@@ -164,14 +223,16 @@ footer{
     background: #151414;
     color: #FFFFFF;
 }
-.future-title{
+
+.future-title {
     margin-bottom: 14px;
     font-weight: 700;
     font-size: 40px;
     line-height: 53px;
     color: #F8F8F8;
 }
-.future-para{
+
+.future-para {
     width: 400px;
     font-weight: 400;
     font-size: 14px;
@@ -179,21 +240,24 @@ footer{
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-.future-info{
+
+.future-info {
     margin-bottom: 17px;
     font-weight: 400;
     font-size: 12px;
     line-height: 26px;
     color: #FFFFFF;
 }
-.subscribe-title{
+
+.subscribe-title {
     font-weight: 600;
     margin-bottom: 40px;
-font-size: 35px;
-line-height: 29px;
-color: #FFFFFF;
+    font-size: 35px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
-input[type='email']{
+
+input[type='email'] {
     border: 1px solid white;
     border-radius: 8px;
     background: transparent;
@@ -202,17 +266,19 @@ input[type='email']{
     padding: 12px 10px;
     padding-right: 70px;
 }
-input[type='submit']{
+
+input[type='submit'] {
     margin-top: 20px;
     padding: 10px 10px;
     background: #005FAC;
-border-radius: 8px;
-font-weight: 600;
-font-size: 17px;
-line-height: 24px;
-color: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
-.social-icons-container img{
+
+.social-icons-container img {
     margin-right: 8px;
     width: 30px;
 }
