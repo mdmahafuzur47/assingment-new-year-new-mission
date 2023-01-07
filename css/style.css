@@ -92,3 +92,127 @@ header {
 .check-icon {
     color: rgb(37, 183, 68);
 }
+
+/* Plans Section CSS===== */
+.plans-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.plans-title {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #151414;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.plans-box {
+    padding: 20px;
+}
+
+.plans-box-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    color: #151414;
+}
+
+.plans-box-para {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #737272;
+}
+/* positive-container css */
+.positive-container{
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px 170px;
+    padding: 50px 60px;
+    border-radius: 8px;
+}
+.positive-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.call-now-btn{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    padding: 13px 15px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Section Css===== */
+footer{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #151414;
+    color: #FFFFFF;
+}
+.future-title{
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.future-para{
+    width: 400px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.future-info{
+    margin-bottom: 17px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.subscribe-title{
+    font-weight: 600;
+    margin-bottom: 40px;
+font-size: 35px;
+line-height: 29px;
+color: #FFFFFF;
+}
+input[type='email']{
+    border: 1px solid white;
+    border-radius: 8px;
+    background: transparent;
+    color: #e7dcdc;
+    display: block;
+    padding: 12px 10px;
+    padding-right: 70px;
+}
+input[type='submit']{
+    margin-top: 20px;
+    padding: 10px 10px;
+    background: #005FAC;
+border-radius: 8px;
+font-weight: 600;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.social-icons-container img{
+    margin-right: 8px;
+    width: 30px;
+}
